@@ -20,7 +20,9 @@ export default function RootLayout({
       <head>
         <ThemeModeScript />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="size-full">{children}</div>
+      </body>
     </html>
   );
 }
