@@ -31,25 +31,25 @@ export default function Home() {
         </Navbar>
       </div>
       <div
-        className="container h-screen p-20 pt-16 dark:text-slate-400"
+        className="container h-screen p-20 py-16 dark:text-slate-400"
         id="home"
       >
         <Main />
       </div>
       <div
-        className="container h-screen p-20 pt-16 dark:text-slate-400"
+        className="container h-screen p-20 py-16 dark:text-slate-400"
         id="about"
       >
         <About />
       </div>
       <div
-        className="container h-screen p-20 pt-16 dark:text-slate-400"
+        className="container h-screen p-20 py-16 dark:text-slate-400"
         id="techno"
       >
         <Techno />
       </div>
       <div
-        className="container h-screen p-20 pt-16 dark:text-slate-400"
+        className="container h-screen p-20 py-16 dark:text-slate-400"
         id="project"
       >
         <Project />
