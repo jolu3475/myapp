@@ -6,7 +6,7 @@ const Main = () => {
   const age = current.getFullYear() - birth.getFullYear();
   return (
     <>
-      <div>
+      <div className="h-full rounded-lg border-2 border-gray-300 p-4 dark:border-gray-300">
         <h3 className="uppercase">
           <strong>Rakotomalala</strong>
         </h3>

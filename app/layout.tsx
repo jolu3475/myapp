@@ -20,8 +20,8 @@ export default function RootLayout({
       <head>
         <ThemeModeScript />
       </head>
-      <body className={inter.className}>
-        <div className="size-full">{children}</div>
+      <body className="m-0">
+        <div className=" min-h-screen dark:bg-gray-700">{children}</div>
       </body>
     </html>
   );
