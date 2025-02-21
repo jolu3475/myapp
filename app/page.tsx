@@ -2,7 +2,11 @@
 
 import { DarkThemeToggle } from "flowbite-react";
 import { Navbar } from "flowbite-react";
-import Main from "./main";
+import Main from "../public/comp/main";
+import About from "./../public/comp/about";
+import Project from "./../public/comp/project";
+import Techno from "./../public/comp/techno";
+import Contact from "./../public/comp/contact";
 
 export default function Home() {
   return (
@@ -36,25 +40,22 @@ export default function Home() {
         className="pt-15 container h-screen p-20 dark:text-slate-400"
         id="about"
       >
-        <Main />
+        <About />
       </div>
       <div
         className="pt-15 container h-screen p-20 dark:text-slate-400"
         id="techno"
       >
-        <Main />
+        <Techno />
       </div>
       <div
         className="pt-15 container h-screen p-20 dark:text-slate-400"
         id="project"
       >
-        <Main />
+        <Project />
       </div>
-      <div
-        className="pt-15 container h-screen p-20 dark:text-slate-400"
-        id="contact"
-      >
-        <Main />
+      <div className="container text-center dark:text-slate-400" id="contact">
+        <Contact />
       </div>
       <div className="fixed bottom-0 right-0 p-4">
         <DarkThemeToggle />
